@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh; /* viewport height = 19.2px */
+    background-color: white;
+    position: relative;
+    
+}
+
+.navbar{
+    display: flex; /* to diplay side by side */
+    justify-content: space-between; 
+    margin-left: 100px;
+    align-items: center;
+    width: 85%;
+}
+.logo{
+    width: 130px;
+}
+.linkitems{
+    display: inline-block; /* to display horizontal */
+    margin: 10px 20px ;
+}
+.links{
+    text-decoration: none; /* to remove the underline */
+    font-weight: bold;
+    color: black;
+}
+/* pseudo class */
+
+/* selector:pseudo-class{property:value;} */
+.links:hover{
+color: red;
+}
+.title{
+    margin-top: 13%;
+    margin-left: 8%;
+}
+.title_h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#lastname{
+    color: #ffa500;
+}
+
+.download{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.images{
+    position: absolute;
+    width: 45%;
+    height: 40%;
+    bottom: 0px;
+    right: 30px;
+}
+
+.images img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover #shape{
+    bottom: 70px;
+}
+.images:hover #man{
+    left: 40%;
+}
+#about{
+    margin: 16% 8% 0px 8%;
+}
+
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: 30px;
+}
+.heading span{
+    font-size: 20px;
+    color: green;
+}
+.about_content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* fr=255px */
+    gap: 2rem; /* 1rem=16px */
+    margin-top: 2rem;
+}
+.about_details{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify; /* to properly align both side */
+}
+.information{
+    margin-top: 2rem;
+}
+.info-box{
+    margin-bottom: 1rem; 
+}
+.info-box span{
+    margin-left: 1rem;
+}
+.html{
+    scroll-behavior: smooth;
+}
+#skills{
+    margin: 8% 8% 0px 8%;
+}
+.skill_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.skill-img img{
+    width: 80%;
+    padding-left: 5rem;
+}
+.bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.base-bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 5rem;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.html-bar{
+    width: 95%;
+    background-color: #ffa500;
+}
+.css-bar{
+    width: 80%;
+    background-color: #ffa500;
+}
+.js-bar{
+    width: 85%;
+    background-color: #ffa500;
+}
+.react-bar{
+    width: 88%;
+    background-color: #ffa500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
